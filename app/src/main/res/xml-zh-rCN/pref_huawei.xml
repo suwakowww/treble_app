@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="指纹">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="key_huawei_fingerprint_gestures"
+            android:title="启用指纹手势" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="显示">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="key_huawei_touchscreen_glove_mode"
+            android:title="启用手套模式" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="key_huawei_no_hwcomposer"
+            android:title="Enable blurry UI workaround (更耗电)" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="其它">
+	    <ListPreference
+		    android:defaultValue="-1"
+		    android:entries="@array/pref_huawei_fast_charge"
+		    android:entryValues="@array/pref_huawei_fast_charge_values"
+		    android:key="key_huawei_fast_charge"
+		    android:title="华为快充" />
+    </PreferenceCategory>
+</PreferenceScreen>

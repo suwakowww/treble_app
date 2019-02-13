@@ -1,0 +1,17 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="me.phh.treble.app.OnePlusSettingsFragment"
+        android:title="一加特定设置" />
+    <header
+        android:fragment="me.phh.treble.app.HuaweiSettingsFragment"
+        android:title="华为特定设置" />
+    <header
+        android:fragment="me.phh.treble.app.SamsungSettingsFragment"
+        android:title="三星特定设置" />
+    <header
+        android:fragment="me.phh.treble.app.DozeSettingsFragment"
+        android:title="睡眠设置" />
+    <header
+        android:fragment="me.phh.treble.app.MiscSettingsFragment"
+        android:title="其它设置" />
+</preference-headers>

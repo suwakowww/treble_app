@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_misc_mobile_signal">
+	    <item>Android 默认</item>
+	    <item>华为设备 / OpenKirin</item>
+	    <item>RSSI</item>
+	    <item>RSRP</item>
+	    <item>RSSNR</item>
+    </array>
+    <array name="pref_misc_mobile_signal_values">
+	    <item>default</item>
+	    <item>openkirin</item>
+	    <item>rssi</item>
+	    <item>rsrp</item>
+	    <item>rssnr</item>
+    </array>
+
+    <array name="pref_misc_fps_divisor">
+	    <item>"1 (默认)"</item>
+	    <item>"2"</item>
+	    <item>"3"</item>
+    </array>
+    <array name="pref_misc_fps_divisor_values">
+	    <item>"1"</item>
+	    <item>"2"</item>
+	    <item>"3"</item>
+    </array>
+
+    <array name="pref_misc_max_aspect_ratio_pre_o">
+	    <item>"1.86 (默认)"</item>
+	    <item>"2.0"</item>
+	    <item>"无限"</item>
+    </array>
+    <array name="pref_misc_max_aspect_ratio_pre_o_values">
+	    <item>"1.86"</item>
+	    <item>"2.0"</item>
+	    <item>"0.0"</item>
+    </array>
+</resources>
